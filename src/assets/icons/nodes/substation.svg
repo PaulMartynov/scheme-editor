@@ -1,0 +1,45 @@
+<svg
+   width="206.32932mm"
+   height="106.83015mm"
+   viewBox="0 0 206.32932 106.83015"
+   xmlns="http://www.w3.org/2000/svg">
+  <g
+     id="layer1"
+     transform="translate(-0.35697115,1.206707)">
+    <g
+       id="g10610">
+      <g
+         id="g852">
+        <ellipse
+           style="fill:#fdffff;fill-opacity:1;stroke:#2e9a2d;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path846"
+           cx="73.893021"
+           cy="52.149887"
+           rx="49.077248"
+           ry="47.324493" />
+        <ellipse
+           style="fill:#ffffff;fill-opacity:1;stroke:#2e9a2d;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path846-9"
+           cx="131.36539"
+           cy="52.117786"
+           rx="49.077248"
+           ry="47.324493" />
+        <path
+           style="fill:#2e9a2d;fill-opacity:1;stroke:#2e9a2d;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 20.704327,51.760818 H 0.35697115"
+           id="path1139" />
+        <path
+           style="fill:none;stroke:#2e9a2d;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 184.55408,51.760818 h 22.13221"
+           id="path1141" />
+        <ellipse
+           style="fill:none;fill-opacity:1;stroke:#2e9a2d;stroke-width:12;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path846-2"
+           cx="74.606964"
+           cy="52.29895"
+           rx="49.077248"
+           ry="47.324493" />
+      </g>
+    </g>
+  </g>
+</svg>

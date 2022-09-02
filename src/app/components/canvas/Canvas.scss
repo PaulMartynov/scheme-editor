@@ -1,0 +1,84 @@
+.canvas {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: auto;
+  pointer-events: all;
+  cursor: grab;
+  &:active {
+    cursor: grabbing;
+  }
+  &__background-image {
+    pointer-events: none;
+  }
+}
+.canvas-container {
+  pointer-events: none;
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  &__zoom-panel {
+    pointer-events: all;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    display: flex;
+    gap: 0.5em;
+    border-radius: 6px;
+    overflow: hidden;
+    align-items: center;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    background-color: white;
+    ._zoom-info {
+      width: 2.5em;
+    }
+    button {
+      cursor: inherit;
+      width: 2em;
+      height: 2em;
+      &:active {
+        background-color: #c2c2c2;
+      }
+    }
+  }
+}
+
+.node {
+  position: absolute;
+  user-select: none;
+  pointer-events: all;
+  z-index: 1;
+  cursor: pointer;
+  image {
+    transform: scale(1);
+  }
+
+  ._blank-node {
+    width: 50px;
+    height: 50px;
+    stroke: green;
+    stroke-width: 3;
+    fill: rgba(255, 255, 255, 0.5);
+  }
+  &:hover {
+    filter: drop-shadow(0px 0px 5px rgba(28, 114, 60, 0.5));
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(28, 114, 60, 1.5));
+  }
+  &._active {
+    cursor: move;
+    z-index: 2;
+    filter: drop-shadow(5px 4px 8px rgba(0, 0, 0, 0.25));
+    -webkit-filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.7));
+  }
+}
+
+.line {
+  cursor: pointer;
+  &:hover {
+    filter: drop-shadow(0px 0px 5px rgba(28, 114, 60, 0.5));
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(28, 114, 60, 1.5));
+  }
+}
